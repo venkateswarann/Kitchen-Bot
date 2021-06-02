@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="naocheffinal-39d694" version="1.0.0" installOnlyAtStartup="false">
+ <names>
+  <name lang="en_US">Nao Chef Final</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Cooking Module</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">I want to cook</sentence>
+    <sentence lang="en_US">Nao</sentence>
+    <sentence lang="en_US">Hey Nao,I want to cook</sentence>
+    <sentence lang="en_US">Load Nao Chef</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">Loading Cooking Mode</sentence>
+    <sentence lang="en_US">Lets Cook</sentence>
+    <sentence lang="en_US">Loading Cooking Module</sentence>
+    <sentence lang="en_US">Loading</sentence>
+    <sentence lang="en_US">Wait Wait Wait.Let me start</sentence>
+   </loadingResponses>
+   <autonomous/>
+   <permissions>
+    <canStandUp/>
+    <canRunOnPod/>
+   </permissions>
+  </behaviorContent>
+  <behaviorContent path="Gather">
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="KettleLid">
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="Heatwater">
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="Teabagandcup">
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="Plasticwrap">
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="Sugar">
+   <nature>interactive</nature>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="FinalTea">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
